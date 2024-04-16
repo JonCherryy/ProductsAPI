@@ -1,4 +1,4 @@
-﻿using ProductsApp.Models;
+using ProductsApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +11,9 @@ namespace ProductsApp.Controllers
     {
         Product[] products = new Product[]
         {
-            new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 1, Name = "Cream Soup", Category = "Sweets", Price = 3.1M },
+            new Product { Id = 2, Name = "Throne", Category = "Furnature", Price = 375.95M },
+            new Product { Id = 3, Name = "Flag", Category = "Decoration", Price = 16.99M }
         };
 
         public ProductsController()
